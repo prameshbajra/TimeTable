@@ -125,7 +125,8 @@ select {
 }
 
 .navigation {
-    margin-top: 12%;
+    position: absolute;
+    bottom: 0;
     margin-left: 19.5%;
     padding-top: 11px;
     border-radius: 30px;

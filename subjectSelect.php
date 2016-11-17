@@ -4,31 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Time Table</title>
+
+
+
     <link rel='stylesheet prefetch' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="animate.css">
+
+
+
 </head>
 
-<body class="animated fadeInRight">
+<body>
 
-    <div class="login-card">
-        <h1>Time Table Generator</h1><br>
-        <h3><u>Programme</u></h3>
-        <form action="gotoPage2.php" method="post">
-            <select name="programme" id="programme">
-                <option value="0">Select Your Programe</option>
-                <option value="1">Bachelor In Technology</option>
-                <option value="2">Bachelor In Pharmacy</option>
-                <option value="3">MCA</option>
-                <option value="4">PolyTechnic</option>
-                <option value="5">Masters In Technology</option>
-            </select>
-            <br><br>
+    <div class="login-card animated fadeInDown">
+        <h1>Time Table Generator</h1>
+        <h4><u>Please Enter Your Subjets</u></h4>
+        <form action="routine.php" method="post">
+            <input type="text" name="subject1" placeholder="Subject 1" required>
+            <input type="text" name="subject2" placeholder="Subject 2" required>
+            <input type="text" name="subject3" placeholder="Subject 3" required>
+            <input type="text" name="subject4" placeholder="Subject 4" required>
+            <input type="text" name="subject5" placeholder="Subject 5">
+            <input type="text" name="subject6" placeholder="Subject 6">
+            <input type="text" name="lab1" placeholder="Lab 1" required>
+            <input type="text" name="lab2" placeholder="Lab 2" required>
+            <input type="text" name="lab3" placeholder="Lab 3">
             <input type="submit" name="submit" class="login login-submit" value="Next ->">
-
         </form>
-
-
 
         <div class="login-help">
             <a href="#">Trouble in choosing?</a>
@@ -38,7 +42,7 @@
     <!-- <div id="error"><img src="https://dl.dropboxusercontent.com/u/23299152/Delete-icon.png" /> Your caps-lock is on.</div> -->
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
-
+    <div id="clear"></div>
     <div class="navigation animated fadeInUp">
         <nav class="navClass">
             <ul class="ulClass">

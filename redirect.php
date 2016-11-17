@@ -54,10 +54,12 @@ function brs()
                     if($_POST['sem'] == 0)
                     {
                         //Civil 1-1....
+                        header('Location: subjectSelect.php');
                     }
                     if($_POST['sem'] == 1)
                     {
                         //Civil 1-2....
+                        header('Location: subjectSelect.php');
                     }
                 }
                 if($_POST['year'] == 1)
@@ -65,10 +67,12 @@ function brs()
                     if($_POST['sem'] == 0)
                     {
                         //Civil 2-1....
+                        header('Location: subjectSelect.php');
                     }
                     if($_POST['sem'] == 1)
                     {
                         //Civil 2-2....
+                        header('Location: subjectSelect.php');
                     }
                 }
                 if($_POST['year'] == 2)
@@ -76,10 +80,12 @@ function brs()
                     if($_POST['sem'] == 0)
                     {
                         //Civil 3-1....
+                        header('Location: subjectSelect.php');
                     }
                     if($_POST['sem'] == 1)
                     {
                         //Civil 3-2....
+                        header('Location: subjectSelect.php');
                     }
                 }
                 if($_POST['year'] == 3)
@@ -87,10 +93,12 @@ function brs()
                     if($_POST['sem'] == 0)
                     {
                         //Civil 4-1....
+                        header('Location: subjectSelect.php');
                     }
                     if($_POST['sem'] == 1)
                     {
                         //Civil 4-2....
+                        header('Location: subjectSelect.php');
                     }
                 }
             }
@@ -101,10 +109,12 @@ function brs()
                     if($_POST['sem'] == 0)
                     {
                         //CSE 1-1....
+                        header('Location: subjectSelect.php');
                     }
                     if($_POST['sem'] == 1)
                     {
                         //CSE 1-2....
+                        header('Location: subjectSelect.php');
                     }
                 }
                 if($_POST['year'] == 1)
@@ -112,11 +122,12 @@ function brs()
                     if($_POST['sem'] == 0)
                     {
                         //CSE 2-1....
-                        header('Location: routine.php');
+                        header('Location: subjectSelect.php');
                     }
                     if($_POST['sem'] == 1)
                     {
                         //CSE 2-2....
+                        header('Location: subjectSelect.php');
                     }
                 }
                 if($_POST['year'] == 2)
@@ -124,10 +135,12 @@ function brs()
                     if($_POST['sem'] == 0)
                     {
                         //CSE 3-1....
+                        header('Location: subjectSelect.php');
                     }
                     if($_POST['sem'] == 1)
                     {
                         //CSE 3-2....
+                        header('Location: subjectSelect.php');
                     }
                 }
                 if($_POST['year'] == 3)
@@ -135,10 +148,12 @@ function brs()
                     if($_POST['sem'] == 0)
                     {
                         //CSE 4-1....
+                        header('Location: subjectSelect.php');
                     }
                     if($_POST['sem'] == 1)
                     {
                         //CSE 4-2....
+                        header('Location: subjectSelect.php');
                     }
                 }
             }
@@ -149,10 +164,12 @@ function brs()
                     if($_POST['sem'] == 0)
                     {
                         //Mech 1-1....
+                        header('Location: subjectSelect.php');
                     }
                     if($_POST['sem'] == 1)
                     {
                         //Mech 1-2....
+                        header('Location: subjectSelect.php');
                     }
                 }
                 if($_POST['year'] == 1)
@@ -160,10 +177,12 @@ function brs()
                     if($_POST['sem'] == 0)
                     {
                         //MEch 2-1....
+                        header('Location: subjectSelect.php');
                     }
                     if($_POST['sem'] == 1)
                     {
                         //MEch 2-2....
+                        header('Location: subjectSelect.php');
                     }
                 }
                 if($_POST['year'] == 2)
@@ -171,10 +190,12 @@ function brs()
                     if($_POST['sem'] == 0)
                     {
                         //MEch 3-1....
+                        header('Location: subjectSelect.php');
                     }
                     if($_POST['sem'] == 1)
                     {
                         //Mech 3-2....
+                        header('Location: subjectSelect.php');
                     }
                 }
                 if($_POST['year'] == 3)
@@ -182,10 +203,12 @@ function brs()
                     if($_POST['sem'] == 0)
                     {
                         //Mech 4-1....
+                        header('Location: subjectSelect.php');
                     }
                     if($_POST['sem'] == 1)
                     {
                         //Mech 4-2....
+                        header('Location: subjectSelect.php');
                     }
                 }
             }
@@ -196,10 +219,12 @@ function brs()
                     if($_POST['sem'] == 0)
                     {
                         //ECE 1-1....
+                        header('Location: subjectSelect.php');
                     }
                     if($_POST['sem'] == 1)
                     {
                         //ECE 1-2....
+                        header('Location: subjectSelect.php');
                     }
                 }
                 if($_POST['year'] == 1)
@@ -207,10 +232,12 @@ function brs()
                     if($_POST['sem'] == 0)
                     {
                         //ECE 2-1....
+                        header('Location: subjectSelect.php');
                     }
                     if($_POST['sem'] == 1)
                     {
                         //ECE 2-2....
+                        header('Location: subjectSelect.php');
                     }
                 }
                 if($_POST['year'] == 2)
@@ -218,10 +245,12 @@ function brs()
                     if($_POST['sem'] == 0)
                     {
                         //ECE 3-1....
+                        header('Location: subjectSelect.php');
                     }
                     if($_POST['sem'] == 1)
                     {
                         //ECE 3-2....
+                        header('Location: subjectSelect.php');
                     }
                 }
                 if($_POST['year'] == 3)
@@ -229,10 +258,12 @@ function brs()
                     if($_POST['sem'] == 0)
                     {
                         //ECE 4-1....
+                        header('Location: subjectSelect.php');
                     }
                     if($_POST['sem'] == 1)
                     {
                         //ECE 4-2....
+                        header('Location: subjectSelect.php');
                     }
                 }
             }
@@ -243,10 +274,12 @@ function brs()
                     if($_POST['sem'] == 0)
                     {
                         //EEE 1-1....
+                        header('Location: subjectSelect.php');
                     }
                     if($_POST['sem'] == 1)
                     {
                         //EEE 1-2....
+                        header('Location: subjectSelect.php');
                     }
                 }
                 if($_POST['year'] == 1)
@@ -254,10 +287,12 @@ function brs()
                     if($_POST['sem'] == 0)
                     {
                         //EEE 2-1....
+                        header('Location: subjectSelect.php');
                     }
                     if($_POST['sem'] == 1)
                     {
                         //EEE 2-2....
+                        header('Location: subjectSelect.php');
                     }
                 }
                 if($_POST['year'] == 2)
@@ -265,10 +300,12 @@ function brs()
                     if($_POST['sem'] == 0)
                     {
                         //EEE 3-1....
+                        header('Location: subjectSelect.php');
                     }
                     if($_POST['sem'] == 1)
                     {
                         //EEE 3-2....
+                        header('Location: subjectSelect.php');
                     }
                 }
                 if($_POST['year'] == 3)
@@ -276,10 +313,12 @@ function brs()
                     if($_POST['sem'] == 0)
                     {
                         //EEE 4-1....
+                        header('Location: subjectSelect.php');
                     }
                     if($_POST['sem'] == 1)
                     {
                         //EEE 4-2....
+                        header('Location: subjectSelect.php');
                     }
                 }
             }

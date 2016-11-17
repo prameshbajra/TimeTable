@@ -5,19 +5,15 @@
     <link rel="stylesheet" href="animate.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
     <link rel="stylesheet" href="styleRoutine.css">
-
-
 </head>
 
 <body>
     <h1 class="timeTable">Time Table</h1>
     <div class="bigContainer">
-    <?php
+        <?php
             $one=1;
             $two=2;
             $three=3;
@@ -35,9 +31,18 @@
                     $sat=array($one,$two,$three,$four,$five,$six,$seven,$eight)
 
             );
+            $subject1 = $_POST['subject1'];
+            $subject2 = $_POST['subject2'];
+            $subject3 = $_POST['subject3'];
+            $subject4 = $_POST['subject4'];
+            $subject5 = $_POST['subject5'];
+            $subject6 = $_POST['subject6'];
+            $lab1 = $_POST['lab1'];
+            $lab2 = $_POST['lab2'];
+            $lab3 = $_POST['lab3'];
             $flag=false;
             $days=array('MON','TUE','WED','THU','FRI','SAT');
-            $sub=array('BREAK','data structures','c++','mefa','dld','mfcs','ethics','lab1','lab2','lab3');
+            $sub=array('BREAK',$subject1,$subject2,$subject3,$subject4,$subject5,$subject6,$lab1,$lab2,$lab3);
             $jx=array(0,1,5);
             function init($a)
             {
@@ -54,7 +59,7 @@
 
                     }
                 }
-            return $a;
+                return $a;
             }
 
 
@@ -71,11 +76,8 @@
                         $a[$i][$j+1]=$x;
                         $a[$i][$j+2]=$x;
                         $count=1;
-
                     }
                 }	
-
-
                 return $a;
             }
 
@@ -131,7 +133,7 @@
                 for($j=0;$j<8;$j++)
                 {
                     if ($a[$i][$j]==-1)
-                        echo "<td>not assigned</td>";
+                        echo "<td>Extra</td>";
                     else
                         echo "<td>".$sub[$a[$i][$j]]."</td>";
 
@@ -139,24 +141,29 @@
                 echo "</tr>";
             }
             echo "</table>";            //editing array worked
-
-
-
         ?>
-        </div>
-        <h4 class="refresh">Click <a class="refresh" href="javascript:window.location.reload();">Here!</a> or Refresh the page to Refresh.</h4>
-        <div class="navigation animated fadeInUp">
-            <nav class="navClass">
-                <ul class="ulClass">
-                    <li class="listItem"><a href="#">Home</a></li>
-                    <li class="listItem"><a href="">About Us</a></li>
-                    <li class="listItem"><a href="">Support Us</a></li>
-                    <li class="listItem"><a href="">Contact Us</a></li>
-                </ul>
-            </nav>
-        </div>
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    </body>
+    </div>
+    <h4 class="refresh"> Refresh the page to generate another time table.</h4>
+    <div class="navigation animated fadeInUp">
+        <nav class="navClass">
+            <ul class="ulClass">
+                <a href="index.php">
+                    <li class="listItem">Home</li>
+                </a>
+                <a href="aboutUs.html">
+                    <li class="listItem">About Us</li>
+                </a>
+                <a href="support.html">
+                    <li class="listItem">Support Us</li>
+                </a>
+                <a href="contact.html">
+                    <li class="listItem">Contact Us</li>
+                </a>
+            </ul>
+        </nav>
+    </div>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
 
 </html>
